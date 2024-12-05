@@ -32,7 +32,7 @@ export default function Home() {
     <>
       <div className="text-center relative max-sm:min-h-[75vh] min-h-[100vh] md:min-h-[70vh] md:max-w-[77vw] sm:px-[1em] max-sm:px-[1em] mx-auto flex flex-col justify-center  md:mt-[8.5em] mt-[10em]">
         <div className="gradient-text">
-          <h1 className="text-[2.8em] max-w-[70%] mx-auto max-sm:text-[2.2em] md:text-[3.4em] lg:text-[4.4em] leading-[1.2em] text-center  font-bold">
+          <h1 className="text-[2.8em] md:max-w-[70%] mx-auto max-sm:text-[2.2em] md:text-[3.4em] lg:text-[4.4em] leading-[1.2em] text-center  font-bold">
             Unleash the power of intuitive finance
           </h1>
         </div>
