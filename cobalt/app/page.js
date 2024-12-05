@@ -32,7 +32,7 @@ export default function Home() {
     <>
       <div className="text-center relative max-sm:min-h-[75vh] min-h-[100vh] md:min-h-[70vh] md:max-w-[77vw] sm:px-[1em] max-sm:px-[1em] mx-auto flex flex-col justify-center  md:mt-[8.5em] mt-[10em]">
         <div className="gradient-text">
-          <h1 className="text-[2.8em] md:max-w-[70%] mx-auto max-sm:text-[2.2em] md:text-[3.4em] lg:text-[4.4em] leading-[1.2em] text-center  font-bold">
+          <h1 className="text-[2.8em] md:max-w-[76%] sm:max-w-[76%] mx-auto max-sm:text-[2.2em] md:text-[3.4em] lg:text-[4.4em] leading-[1.2em] text-center  font-bold">
             Unleash the power of intuitive finance
           </h1>
         </div>
@@ -66,10 +66,10 @@ export default function Home() {
         />
       </section>
 
-      <section className="grid place-items-center my-[5em] md:max-w-[78%] px-[1em] md:min-h-[40vh] mx-auto">
+      <section className="grid place-items-center my-[5em] max-sm:my-[10em] md:max-w-[90%] lg:max-w-[78%] px-[1em] md:min-h-[40vh] mx-auto">
         <div className="grid md:grid-cols-2 gap-4">
           <div className="gradient-text">
-            <h2 className="text-[2.8em] md:text-5xl font-bold md:max-w-[85%] leading-[1.2em]">
+            <h2 className="text-[2em] md:text-5xl font-bold md:max-w-[85%] leading-[1.2em]">
               Who said finance has to be boring
             </h2>
           </div>
@@ -85,10 +85,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="grid my-[4em] md:max-w-[78%] px-[1em] mx-auto">
+      <section className="grid my-[4em] md:max-w-[90%] lg:max-w-[78%] px-[1em] mx-auto">
         <div className="">
           <div className="gradient-text">
-            <h2 className="text-[2.8em] md:text-5xl font-bold max-w-[100%] leading-[1.2em]">
+            <h2 className="text-[2em] md:text-5xl font-bold max-w-[100%] leading-[1.2em]">
               {`Everything you need.`}
               {<br></br>} {`Nothing you don’t `}
             </h2>
@@ -101,7 +101,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="grid md:max-w-[90%] lg:max-w-[78%] mb-[4em] px-[1em] mx-auto">
+      <section className="grid md:max-w-[90%] lg:max-w-[78%] mb-[4em] max-sm:mb-[10em] px-[1em] mx-auto">
         <div className="grid md:grid-cols-3 gap-[1.5em]">
           {cards.map(({ url, title, caption }, index) => (
             <TiltCard
@@ -147,10 +147,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="grid mb-[4em] mt-[7em] md:max-w-[78%] px-[1em] mx-auto">
+      <section className="grid mb-[4em] mt-[7em] md:max-w-[90%] lg:max-w-[78%] px-[1em] mx-auto">
         <div className="">
           <div className="gradient-text">
-            <h2 className="text-[2.8em] md:text-5xl font-bold max-w-[100%] leading-[1.2em]">
+            <h2 className="text-[2em] md:text-5xl font-bold max-w-[100%] leading-[1.2em]">
               Meet Genius
             </h2>
           </div>
@@ -189,7 +189,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="relative grid min-h-[30em] mt-[8em] mb-[3em]">
+      <section className="relative grid min-h-[30em] mt-[8em] mb-[7em]">
         <div className="grid grid-cols-2 h-[40em]">
           <div className=" w-[120%] right-auto left-auto h-[100%] ml-[10em] inset-0 radial-gradient-green blur-3xl opacity-50"></div>
           <div className=" w-[120%] right-auto left-auto h-[100%] ml-[-15em]  inset-0 radial-gradient-blue blur-3xl opacity-50"></div>
@@ -197,7 +197,7 @@ export default function Home() {
 
         <div className="absolute  w-[100%] grid">
           <div className="gradient-text">
-            <h2 className="text-center text-[1.7em] md:text-[2.6em] px-4 font-bold max-w-[100%] leading-[1.2em]">
+            <h2 className="text-center text-[1.7em] md:text-[2.6em] lg:px-4 font-bold max-w-[100%] leading-[1.2em]">
               See where financial automation {<br></br>}can take your business.
             </h2>
           </div>
@@ -210,12 +210,12 @@ export default function Home() {
             label="Joint the waitlist"
           />
 
-          <div className="flex flex-wrap gap-6 ml-[15%] mr-auto mt-[6em] text-[#71717A]">
+          <div className="flex flex-wrap gap-6 lg:ml-[15%] ml-[5%] mr-auto mt-[6em] text-[#71717A]">
             <p>© 2023 Cobalt Financial Technologies Inc.</p>
             <Link href={"#"}>Privacy Policy</Link>
             <Link href={"#"}>Terms of Use</Link>
           </div>
-          <p className="ml-[15%] mr-auto mt-5 max-w-[50%] text-[#71717A]">
+          <p className="lg:ml-[15%] ml-[5%] mr-auto mt-5 max-w-[75%] lg:max-w-[50%] text-[#71717A]">
             Cobalt is a trademark or registered trademark of Cobalt Financial
             Technologies Inc. Any other trademarks are the property of their
             respective owners. Unless otherwise noted, use of third party logos
@@ -223,7 +223,7 @@ export default function Home() {
             Cobalt.
           </p>
 
-          <p className="ml-[15%] mr-auto mt-5 mb-5 max-w-[50%] text-[#71717A]">
+          <p className="lg:ml-[15%] ml-[5%] mr-auto mt-5 mb-5 max-w-[50%] text-[#71717A]">
             Cobalt is a financial technology company, not a bank. Banking
             services are provided by Celtic Bank and Evolve Bank & Trust®,
             Members FDIC.
