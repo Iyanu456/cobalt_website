@@ -12,7 +12,7 @@ export default function Header() {
 
             <div className="flex w-full justify-between py-5 absolute top-4 bottom-auto">
             
-                <Image src='/icon.svg' className="my-auto" height={90} width={90} alt="logo" />
+                <Image src='/Icon.svg' className="my-auto" height={90} width={90} alt="logo" />
                 <nav>
                     <ul className="md:flex gap-10 hidden">
                         <li className="my-auto font-semibold hover-btn"><Link href="/" >Blog</Link></li>

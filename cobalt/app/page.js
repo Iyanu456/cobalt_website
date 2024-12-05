@@ -30,13 +30,13 @@ const cards = [
 export default function Home() {
   return (
     <>
-      <div className="text-center relative max-sm:min-h-[75vh] min-h-[70vh] max-w-[77vw] mx-auto flex flex-col justify-center  mt-[7em]">
+      <div className="text-center relative max-sm:min-h-[75vh] min-h-[100vh] md:min-h-[70vh] md:max-w-[77vw] sm:px-[1em] max-sm:px-[1em] mx-auto flex flex-col justify-center  md:mt-[7em] mt-[10em]">
         <div className="gradient-text">
           <h1 className="text-[2.8em] max-sm:text-[2.2em] md:text-[3.4em] lg:text-[4.4em] leading-[1.2em] text-center  font-bold">
             Unleash the power of {<br></br>}intuitive finance
           </h1>
         </div>
-        <p className="text-[1.2em] max-w-[60%] mx-auto text-center mt-3">
+        <p className="md:text-[1.2em] md:max-w-[60%] mx-auto text-center mt-3">
           Say goodbye to the outdated financial tools. Every small business
           owner, regardless of the background, can now manage their business
           like a pro. Simple. Intuitive. And never boring.
@@ -60,13 +60,13 @@ export default function Home() {
 
         <TiltImage 
         imageUrl="screenshot.png"
-        imageClass="mx-auto max-w-[80vw] md:max-w-[72vw] shadow-2xl"
+        imageClass="mx-auto max-w-[85vw] md:max-w-[72vw] shadow-2xl"
         imageHeight={10000}
         imageWidth={10000}
         />
       </section>
 
-      <section className="grid place-items-center my-[5em] md:max-w-[78%] px-[2.5em] md:min-h-[40vh] mx-auto">
+      <section className="grid place-items-center my-[5em] md:max-w-[78%] px-[1em] md:min-h-[40vh] mx-auto">
         <div className="grid md:grid-cols-2 gap-4">
           <div className="gradient-text">
             <h2 className="text-4xl md:text-5xl font-bold md:max-w-[85%] leading-[1.2em]">
@@ -85,7 +85,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="grid my-[4em] md:max-w-[78%] px-[2.5em] mx-auto">
+      <section className="grid my-[4em] md:max-w-[78%] px-[1em] mx-auto">
         <div className="">
           <div className="gradient-text">
             <h2 className="text-4xl md:text-5xl font-bold max-w-[100%] leading-[1.2em]">
@@ -101,7 +101,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="grid md:max-w-[90%] lg:max-w-[78%] mb-[4em] px-[2.5em] mx-auto">
+      <section className="grid md:max-w-[90%] lg:max-w-[78%] mb-[4em] px-[1em] mx-auto">
         <div className="grid md:grid-cols-3 gap-[1.5em]">
           {cards.map(({ url, title, caption }, index) => (
             <TiltCard
@@ -147,7 +147,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="grid mb-[4em] mt-[7em] md:max-w-[78%] px-[2.5em] mx-auto">
+      <section className="grid mb-[4em] mt-[7em] md:max-w-[78%] px-[1em] mx-auto">
         <div className="">
           <div className="gradient-text">
             <h2 className="text-4xl md:text-5xl font-bold max-w-[100%] leading-[1.2em]">
