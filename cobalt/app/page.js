@@ -69,7 +69,7 @@ export default function Home() {
       <section className="grid place-items-center my-[5em] md:max-w-[78%] px-[1em] md:min-h-[40vh] mx-auto">
         <div className="grid md:grid-cols-2 gap-4">
           <div className="gradient-text">
-            <h2 className="text-4xl md:text-5xl font-bold md:max-w-[85%] leading-[1.2em]">
+            <h2 className="text-[2.8em] md:text-5xl font-bold md:max-w-[85%] leading-[1.2em]">
               Who said finance has to be boring
             </h2>
           </div>
@@ -88,7 +88,7 @@ export default function Home() {
       <section className="grid my-[4em] md:max-w-[78%] px-[1em] mx-auto">
         <div className="">
           <div className="gradient-text">
-            <h2 className="text-4xl md:text-5xl font-bold max-w-[100%] leading-[1.2em]">
+            <h2 className="text-[2.8em] md:text-5xl font-bold max-w-[100%] leading-[1.2em]">
               {`Everything you need.`}
               {<br></br>} {`Nothing you don’t `}
             </h2>
@@ -150,7 +150,7 @@ export default function Home() {
       <section className="grid mb-[4em] mt-[7em] md:max-w-[78%] px-[1em] mx-auto">
         <div className="">
           <div className="gradient-text">
-            <h2 className="text-4xl md:text-5xl font-bold max-w-[100%] leading-[1.2em]">
+            <h2 className="text-[2.8em] md:text-5xl font-bold max-w-[100%] leading-[1.2em]">
               Meet Genius
             </h2>
           </div>
