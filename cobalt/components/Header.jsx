@@ -1,5 +1,6 @@
 import Image from "next/image"
 import GradientBorderButton from "./GradientBorderButton"
+import Link from "next/link"
 
 
 export default function Header() {
@@ -14,7 +15,7 @@ export default function Header() {
                 <Image src='/icon.svg' className="my-auto" height={90} width={90} alt="logo" />
                 <nav>
                     <ul className="md:flex gap-10 hidden">
-                        <li className="my-auto font-semibold hover-btn"><a href="/" >Blog</a></li>
+                        <li className="my-auto font-semibold hover-btn"><Link href="/" >Blog</Link></li>
                         <li><GradientBorderButton label="Joint the waitlist" className="hover-btn" /></li>
                     </ul>
                 </nav>

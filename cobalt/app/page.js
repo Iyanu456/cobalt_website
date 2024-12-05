@@ -202,8 +202,8 @@ export default function Home() {
             </h2>
           </div>
           <p className="mt-[2em] text-center px-5">
-            The first financial tool you'll love. And the last one you'll ever
-            need.
+            {`The first financial tool you'll love. And the last one you'll ever
+            need.`}
           </p>
           <GradientBorderButton
             className="mt-[4em] hover-btn"
