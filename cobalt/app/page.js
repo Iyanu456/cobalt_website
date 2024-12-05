@@ -4,6 +4,7 @@ import Link from "next/link";
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import { ArrowDown } from "lucide-react";
 import TiltCard from "@/components/HoverTiltCard";
+import TiltImage from "@/components/TiltImage";
 
 const cards = [
   {
@@ -56,13 +57,12 @@ export default function Home() {
       </div>
 
       <section id="screenshot" className="grid place-items-center mt-[2em]">
-        <Image
-          src={"/screenshot.png"}
-          className="mx-auto max-w-[80vw] md:max-w-[72vw] shadow-2xl"
-          unoptimized={true}
-          height={10000}
-          width={10000}
-          alt="screenshot"
+
+        <TiltImage 
+        imageUrl="screenshot.png"
+        imageClass="mx-auto max-w-[80vw] md:max-w-[72vw] shadow-2xl"
+        imageHeight={10000}
+        imageWidth={10000}
         />
       </section>
 
