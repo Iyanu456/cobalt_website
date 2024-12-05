@@ -30,13 +30,13 @@ const cards = [
 export default function Home() {
   return (
     <>
-      <div className="text-center relative max-sm:min-h-[75vh] min-h-[100vh] md:min-h-[70vh] md:max-w-[77vw] sm:px-[1em] max-sm:px-[1em] mx-auto flex flex-col justify-center  md:mt-[7em] mt-[10em]">
+      <div className="text-center relative max-sm:min-h-[75vh] min-h-[100vh] md:min-h-[70vh] md:max-w-[77vw] sm:px-[1em] max-sm:px-[1em] mx-auto flex flex-col justify-center  md:mt-[8.5em] mt-[10em]">
         <div className="gradient-text">
-          <h1 className="text-[2.8em] max-sm:text-[2.2em] md:text-[3.4em] lg:text-[4.4em] leading-[1.2em] text-center  font-bold">
-            Unleash the power of {<br></br>}intuitive finance
+          <h1 className="text-[2.8em] max-w-[70%] mx-auto max-sm:text-[2.2em] md:text-[3.4em] lg:text-[4.4em] leading-[1.2em] text-center  font-bold">
+            Unleash the power of intuitive finance
           </h1>
         </div>
-        <p className="md:text-[1.2em] md:max-w-[60%] mx-auto text-center mt-3">
+        <p className="md:text-[1.2em] md:max-w-[60%] max-w-[90%] mx-auto text-center mt-3">
           Say goodbye to the outdated financial tools. Every small business
           owner, regardless of the background, can now manage their business
           like a pro. Simple. Intuitive. And never boring.
