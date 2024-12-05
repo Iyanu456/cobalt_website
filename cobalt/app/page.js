@@ -30,7 +30,7 @@ const cards = [
 export default function Home() {
   return (
     <>
-      <div className="text-center relative max-sm:min-h-[75vh] min-h-[100vh] md:min-h-[70vh] md:max-w-[77vw] sm:px-[1em] max-sm:px-[1em] mx-auto flex flex-col justify-center  md:mt-[8.5em] mt-[10em]">
+      <div className="text-center relative max-sm:min-h-[75vh] min-h-[100vh] md:min-h-[70vh] md:max-w-[77vw]  mx-auto flex flex-col justify-center  md:mt-[8.5em] mt-[10em]">
         <div className="gradient-text">
           <h1 className="text-[2.8em] md:max-w-[76%] sm:max-w-[76%] mx-auto max-sm:text-[2.2em] md:text-[3.4em] lg:text-[4.4em] leading-[1.2em] text-center  font-bold">
             Unleash the power of intuitive finance
@@ -66,7 +66,7 @@ export default function Home() {
         />
       </section>
 
-      <section className="grid place-items-center my-[5em] max-sm:my-[10em] md:max-w-[90%] lg:max-w-[78%] px-[1em] md:min-h-[40vh] mx-auto">
+      <section className="grid place-items-center my-[5em] max-sm:my-[10em] max-w-[90%] lg:max-w-[78%]  md:min-h-[40vh] mx-auto">
         <div className="grid md:grid-cols-2 gap-4">
           <div className="gradient-text">
             <h2 className="text-[2em] md:text-5xl font-bold md:max-w-[85%] leading-[1.2em]">
@@ -85,7 +85,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="grid my-[4em] md:max-w-[90%] lg:max-w-[78%] px-[1em] mx-auto">
+      <section className="grid my-[4em] max-w-[90%] lg:max-w-[78%]  mx-auto">
         <div className="">
           <div className="gradient-text">
             <h2 className="text-[2em] md:text-5xl font-bold max-w-[100%] leading-[1.2em]">
@@ -101,14 +101,14 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="grid md:max-w-[90%] lg:max-w-[78%] mb-[4em] max-sm:mb-[10em] px-[1em] mx-auto">
+      <section className="grid max-w-[90%] lg:max-w-[78%] mb-[4em] max-sm:mb-[10em] mx-auto">
         <div className="grid md:grid-cols-3 gap-[1.5em]">
           {cards.map(({ url, title, caption }, index) => (
             <TiltCard
               key={index}
               containerClass="bg-[#18181B] flex flex-col w-[100%] rounded-xl border shadow-md border-[#333333]"
               imageUrl={url}
-              imageClass="max-h-[10em] lg:max-h-[100%]  object-cover"
+              imageClass="max-h-[7em] lg:max-h-[100%]  object-cover p-2"
               imageHeight={1000}
               imageWidth={1000}
               caption={caption}
@@ -147,7 +147,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="grid mb-[4em] mt-[7em] md:max-w-[90%] lg:max-w-[78%] px-[1em] mx-auto">
+      <section className="grid mb-[4em] mt-[7em] max-w-[90%] lg:max-w-[78%] mx-auto">
         <div className="">
           <div className="gradient-text">
             <h2 className="text-[2em] md:text-5xl font-bold max-w-[100%] leading-[1.2em]">
@@ -189,7 +189,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="relative grid min-h-[30em] mt-[8em] mb-[7em]">
+      <section className="relative grid min-h-[30em] mt-[8em] mb-[3em]">
         <div className="grid grid-cols-2 h-[40em]">
           <div className=" w-[120%] right-auto left-auto h-[100%] ml-[10em] inset-0 radial-gradient-green blur-3xl opacity-50"></div>
           <div className=" w-[120%] right-auto left-auto h-[100%] ml-[-15em]  inset-0 radial-gradient-blue blur-3xl opacity-50"></div>
